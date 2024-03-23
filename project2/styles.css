@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+button
+{
+    border: none;
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+} 
+main
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+#nav
+{
+    position: fixed;
+    right: 150px;
+    top: 30px;
+}
+#nav .menu 
+{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: #000;
+    padding: 15px 25px;
+    border-radius: 80px;
+}
+#nav .cart 
+{
+
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: #000;
+    padding: 15px 20px;
+    border-radius: 50%;
+    margin: 5px;
+} 
+#heading
+{
+    width: 80%;
+    height: 245px;
+    margin: 20px auto;
+}
+#heading .intro
+{
+    font-size: 40px;
+}
+.sub-heading
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 25px;
+    padding: 3px;
+}
+.sub-heading button
+{
+    background-color: transparent;
+    border: 0px;
+}
+.scroll
+{
+    margin-top: 5px;
+    display: flex;
+}
+#potrait img
+{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+#about
+{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#about .right
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#about i{
+    padding: 10px;
+
+}
+#about h1{
+    font-size: 90px;
+    border-right: 2px solid black;
+    width: 63%;
+}
+#about h3{
+    font-size: 35px;
+    margin: 20px auto;
+}
+
+.straight-line::before {
+    margin: 40px;
+    content: '';
+    display: block;
+    width: 100%; 
+    border-top: 2px solid black;
+}
+#about2
+{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#about2 .left
+{
+    display: flex;
+    justify-content: space-between;
+    width: 46%;
+    padding: 10px;
+    border-right: 2px solid black;
+    font-size: 20px;
+}
+#about2 .right
+{
+    width: 100%;
+}
+#about2 .left i 
+{
+    margin-right: 30px;
+    font-size: 40px;
+}
+.row div
+{
+    padding:5px 45px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+}
+.row h1{
+    font-size: 40px;
+}
+.right .row div:nth-child(1) {
+    border-right: 2px solid black;
+}
+.right .row
+{
+    display: flex;
+}

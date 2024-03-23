@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    height: 100%;
+    width: 100%;
+}
+#navbar
+{
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button
+{
+    margin: 5px;
+    border: 1px solid black; /* Sets a solid black border with 2px width */
+    padding: 5px 10px; 
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: white;
+}
+.navitems
+{
+    display: flex;
+}
+#btn2
+{
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+.miditem
+{
+    width: 100%;
+    text-align: center;
+    font-size: 60px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+}
+img
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width: 350px;
+    object-fit: cover ;
+    border-radius: 20px;
+}
+#img2
+{
+   transform: translate(-50%,-50%) rotate(5deg);
+}
+#img1
+{
+    transform: translate(-50%,-50%) rotate(10deg);
+}
+#bottom
+{
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#bottom .comp1
+{
+    margin-right: 250px;
+    margin-top: 14px;
+}
+#bottom .comp2
+{
+    margin-left: 250px;
+}
+.bottom_heading
+{
+    margin-top: 8px;
+    font-size: 18px;
+}
+#icons
+{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+}
